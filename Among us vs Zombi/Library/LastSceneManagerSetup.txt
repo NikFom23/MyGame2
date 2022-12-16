@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/AbongUs vs Zombi/Scenes/SampleScene.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
