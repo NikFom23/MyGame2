@@ -53,9 +53,12 @@
     <UnityVersion>2019.4.35f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\AbongUs vs Zombi\Scripts\Gun\Bullet.cs" />
-    <Compile Include="Assets\AbongUs vs Zombi\Scripts\Gun\Gun.cs" />
+    <Compile Include="Assets\AbongUs vs Zombi\Scripts\Components\SpriteAnimation.cs" />
+    <Compile Include="Assets\AbongUs vs Zombi\Scripts\Guns\Bullet.cs" />
+    <Compile Include="Assets\AbongUs vs Zombi\Scripts\Guns\Gun.cs" />
     <Compile Include="Assets\AbongUs vs Zombi\Scripts\Hero\HeroMove.cs" />
+    <Compile Include="Assets\AbongUs vs Zombi\Scripts\enemy\EnemyTrigger.cs" />
+    <Compile Include="Assets\AbongUs vs Zombi\Scripts\enemy\Zombi.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AbongUs vs Zombi\Sprites\props\UI\20x11 Cells.txt" />
@@ -592,6 +595,9 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
@@ -652,6 +658,9 @@
     <Reference Include="Unity.2D.Animation.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
@@ -672,12 +681,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
