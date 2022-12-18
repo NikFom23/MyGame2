@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Events;
 
 namespace Guns
@@ -21,6 +22,7 @@ namespace Guns
         public void OnDestroy()
         {
             Destroy(gameObject);
+            
         }
     }
 

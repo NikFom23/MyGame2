@@ -328,7 +328,7 @@ GameObject:
   - component: {fileID: 551535163}
   m_Layer: 8
   m_Name: Red
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8381,6 +8381,7 @@ GameObject:
   - component: {fileID: 999701754}
   - component: {fileID: 999701755}
   - component: {fileID: 999701751}
+  - component: {fileID: 999701756}
   m_Layer: 0
   m_Name: Zombi
   m_TagString: Untagged
@@ -8401,8 +8402,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.121935844, y: -0.48325443}
-  m_Size: {x: 2.8032742, y: 5.1423445}
+  m_Offset: {x: 0.03449917, y: -0.4312234}
+  m_Size: {x: 3.2785664, y: 5.2449503}
   m_Direction: 0
 --- !u!212 &999701752
 SpriteRenderer:
@@ -8496,8 +8497,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2ff3df8242a30c43b52ad9b2d08ff8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 1
+  _speed: 4
   _tag: Player
+  _gameObject: {fileID: 551535160}
+--- !u!50 &999701756
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999701750}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 70
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1584917562
 GameObject:
   m_ObjectHideFlags: 0
